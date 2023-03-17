@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.app{
+    padding: 0 2rem;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav li{
+    height: 100%;
+    display: flex;
+}
+
+.text-box{
+    padding: 0 2rem;
+    width: 40%;
+}
+
+.sunset{
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-box{
+    display: flex;
+    align-items: center;
+    margin: 30px auto;
+}
