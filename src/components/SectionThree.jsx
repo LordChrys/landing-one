@@ -2,10 +2,12 @@
 const SectionThree = () => {
   return (
     <div>
-        <div className="text-box">
-            <h1>How It Works</h1>
-            <h4>Work</h4>
-            <p>Lorem Ipsum SOme more text here</p>
+        <div className="mid-box">
+            <div>
+                <h4>Work</h4>
+                <h1>How It Works</h1>
+                <p>Lorem Ipsum SOme more text here</p>
+            </div>
         </div>
         <div>
             <div>

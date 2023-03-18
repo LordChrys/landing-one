@@ -36,7 +36,7 @@ body{
 
 .text-box{
     padding: 0 2rem;
-    width: 40%;
+    width: 50%;
 }
 
 .sunset{
@@ -49,5 +49,13 @@ body{
 .main-box{
     display: flex;
     align-items: center;
-    margin: 30px auto;
+    justify-content: center;
+
+}
+
+.mid-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
