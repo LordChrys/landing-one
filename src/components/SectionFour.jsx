@@ -1,26 +1,23 @@
-
-const SectionThree = () => {
+const SectionFour = () => {
   return (
     <div className="s3">
         <div className="text-center">
-            <h4>Work</h4>
-            <h1>How It Works</h1>
+            <h4>Testimonials</h4>
+            <h1>What they are saying</h1>
             <p className="text-center-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo tincidunt metus, sit amet tristique mauris rhoncus eget. Nulla facilisi. Nulla facilisi. Donec non faucibus libero. Cras vel quam ante. Nam at est euismod, cursus risus eget, aliquam augue. Suspendisse potenti. Proin feugiat felis sed bibendum feugiat.</p>
         </div>
-        <div className="cards">
+        <div className="box-wrap">
             <div className="card-box">
-                Card
-            </div>
-            <div className="card-box">
-                Card
-            </div>
-            <div className="card-box">
-                Card
+                <ol className="box-content">
+                    <li> Image</li>
+                    <li>Lorem</li>
+                    <li>Stars</li>
+                    <li>Name</li>
+                </ol>
             </div>
         </div>
     </div>
-    
   )
 }
 
-export default SectionThree
+export default SectionFour
