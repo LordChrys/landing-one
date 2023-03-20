@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
+    margin-bottom: 50px;
 }
 
 .nav ul{
@@ -53,10 +54,6 @@ body{
     margin-bottom: 100px;
 
 }
-
-/* .work-text{
-    display: flex;
-} */
 
 
 .cards{
@@ -101,10 +98,23 @@ body{
 
 .box-content{
     list-style: none;
-    align-items: center;
+    padding: 0;
 }
 
 .box-content li{
+    display: flex;
     margin: 30px auto;
+    justify-content: center;
+    padding: 0 20px;
+}
 
+#wide-box{
+    width: 600px;
+}
+
+
+.profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
 }
